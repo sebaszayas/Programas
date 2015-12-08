@@ -1,0 +1,29 @@
+int SumaConlimites(int vector[], int comienzo, int final){
+
+ int suma_de_elementos = 0;    
+
+int tamVector = sizeof(v)/sizeof(v[0]);    
+
+1.     if(comienzo < 0 || final < comienzo || final > tamVector)
+
+2.         return -1                                           //Error en los 
+
+parametros  
+
+3.     else    
+
+4.         for (int i = comienzo-1; i < final; i++)            //Se realiza 
+
+la suma
+
+5.             suma_de_elementos += v[i];
+
+6.    
+
+7.     return suma_de_elementos;
+
+8. }
+
+9.  
+
+10.

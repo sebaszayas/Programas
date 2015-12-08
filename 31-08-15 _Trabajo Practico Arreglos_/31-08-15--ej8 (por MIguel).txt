@@ -1,0 +1,37 @@
+11. EJERCICIO 8
+
+12. void compararVectores(int POS[], int NEG[]){
+
+13.     int i, aux;
+
+14.     for(i = 0; i < MAXTAM; i++){
+
+15.         if(POS[i] < 0 && NEG[i] >0){
+
+16.             aux=POS[i];
+
+17.             POS[i]=NEG[i];
+
+18.             NEG[i]=aux;
+
+19.         }else
+
+20.             if(POS[i] > 0 && NEG[i] > 0)
+
+21.                 NEG[[i] = 0;
+
+22.             else
+
+23.                 if(POS[i] < 0 && NEG[i] < 0)
+
+24.                     POS[i] = 0;
+
+25.     }
+
+26.  
+
+27.     //Impresion de los vectores
+
+28.     printf("POS[%d]= ",MAXTAM);
+
+29.     for(i = 0; i < MAXTAM; i++)
